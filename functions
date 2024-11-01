@@ -1,4 +1,4 @@
-//functions 
+
 #include<stdio.h>//scanf(), printf()
 #include<math.h>//sin(),cos()
 int sum(int x, int y, int z);//function prototype 
@@ -12,7 +12,7 @@ float div_1;
   scanf("%d%d%d", &a,&b,&c);
   
   result=sum(a,b,c);//function calling 
-  div_1=division(12,15);// function calling 
+  div_1=division(25,20);// function calling 
   
   printf("The sum is %d\n", result);
   printf("The division is %.2f\n",div_1);
